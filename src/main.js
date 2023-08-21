@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
+import 'bootstrap/dist/js/bootstrap.min.js'
 
 import axios from 'axios'
 import VueAxios from 'vue-axios'
@@ -6,7 +7,7 @@ import VueAxios from 'vue-axios'
 import App from './App.vue'
 import router from './router'
 
-import './assets/all.scss'
+import './assets/SCSS/all.scss'
 
 const app = createApp(App)
 
